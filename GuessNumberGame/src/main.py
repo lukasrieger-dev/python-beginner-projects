@@ -6,8 +6,7 @@ __author__ = 'codinglukas'
 
 MAX_NUMBER = 100
 secret_number = random.randint(0, MAX_NUMBER)
-guess = -1
-rounds = 0
+rounds = 1
 
 print(f"Can you guess my secret number? Its between 0 and {MAX_NUMBER}")
 
